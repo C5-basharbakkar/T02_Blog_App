@@ -1,0 +1,81 @@
+.hero{
+    display: grid;
+    grid-template-columns: auto auto auto;    margin-top: 5rem;
+    grid-area: 1rem;
+    row-gap: 2rem;
+    column-gap: 1rem;
+    margin-left: 5rem;
+    
+}
+
+.p{
+    color: rgb(248, 241, 241);
+    border-bottom: 0.5rem;
+    border-top: 5px solid rgb(247, 245, 245);
+
+    box-sizing: 2rem;
+
+}
+
+.header{
+    position: relative;
+    left: 50%;
+}
+
+.add{
+    position: absolute;
+    right: 8rem;
+    top: 8rem;
+}
+
+.addCard{
+    position: absolute;
+    left:25%;
+    top: 30%;
+    z-index: 1;
+
+}
+
+.title{
+    width: 35rem;
+    margin-top: -1rem;
+}
+
+
+.body{
+    width: 35rem;
+    height: 15rem;
+    margin-top: -1rem;
+}
+
+.buttonAdd{
+    margin-top: 1rem;
+    
+}
+
+.editbutton{
+    position: absolute;
+    bottom: 1rem;
+    left: 5rem;
+    margin-left: 2rem;
+}
+
+
+.del{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.buttonCard{
+    margin-left: 1rem;
+}
+
+.overFlow{
+    background: #0f0f0f;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    height: 10%;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
