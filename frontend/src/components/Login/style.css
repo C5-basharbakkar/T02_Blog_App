@@ -1,0 +1,26 @@
+.log{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    border: 5px solid ;
+    width: 15%;
+    height: 35%;
+}
+
+.email{
+    display: grid;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.loginButton{
+    position: absolute;
+    right: 7%;
+    bottom: 15%;
+    width: 50%;
+}
+
+.inputLogin{
+    margin-bottom: 1rem;
+}
